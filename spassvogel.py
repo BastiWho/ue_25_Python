@@ -19,9 +19,9 @@ while True:
 
     print(random.choice(witze))
 
-    play_again = input("War gut? Wie wäre es mit noch einer Runde (j/n)? ").lower()
-    if play_again != "j":
+    again = input("War gut? Wie wäre es mit noch einer Runde (j/n)? ").lower()
+    if again != "j":
             break
 
 print("\nHoffe du hattest Spaß. Bis später!\n")
-input("Zum Beenden beliebige Taste drücken.")
+input("Dücke eine beliebige Taste zum Beenden")
